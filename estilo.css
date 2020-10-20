@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+    color: cadetblue;
+    font: normal 20pt Arial;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    font: italic 15pt Arial;
+    text-align: center;
+}
+
+section{
+    background-color:bisque;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: auto;
+    width: 700px;
+    
+}
