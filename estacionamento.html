@@ -14,7 +14,18 @@
     <section>
         <div>Olá</div>
 
-        <input type="button" value="Botão" onclick="func_teste()">
+        <button id="popup_local">Clique</button>
+
+        <div id="popup" class="modal">
+            <div class="modal-content">
+
+                Pergunta Importante<br>
+
+                <button id="opc_1" onclick="modal_close()">Sim</button><br>
+                <button id="opc_2" onclick="modal_close()">Não</button>
+            </div>
+
+        </div>
 
     </section>
 
