@@ -14,12 +14,14 @@
     <section>
         <div>Olá</div>
 
-        <button id="popup_local">Clique</button>
+        <button id="popup_local" onclick="modal_show('Carioca Shopping')">Clique</button>
 
         <div id="popup" class="modal">
             <div class="modal-content">
 
-                Pergunta Importante<br>
+                <p id="local">
+                    <br>
+                </p>
 
                 <button id="opc_1" onclick="modal_close()">Sim</button><br>
                 <button id="opc_2" onclick="modal_close()">Não</button>
