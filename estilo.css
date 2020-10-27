@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: whitesmoke;
     color: cadetblue;
@@ -5,8 +11,24 @@ body{
 }
 
 header{
-    text-align: center;
+    color: white;
+    font: bold 20pt Arial;
+    background-color:cadetblue;
+    align-items: center;
+    text-align: end;
+    display: flex;
+    width: 100%;
+    margin: auto;
 }
+
+header div{
+    flex: 1;
+}
+
+header div p{
+    text-align: left;
+}
+
 
 footer{
     font: italic 15pt Arial;
@@ -18,8 +40,10 @@ section{
     text-align: center;
     padding: 15px;
     border-radius: 15px;
-    margin: auto;
-    width: 700px;
+    width: 90%;
+    height: 90%;
+    margin: auto;        
+
 }
  
 .modal {
