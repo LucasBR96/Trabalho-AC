@@ -9,3 +9,7 @@ function modal_show(lugar){
 function modal_close(){
     modal.style.display = "none";
 }
+
+function teste(){
+    window.alert("ok")
+}
