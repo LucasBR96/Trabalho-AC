@@ -20,7 +20,6 @@ section{
     border-radius: 15px;
     margin: auto;
     width: 700px;
-    
 }
  
 .modal {
@@ -46,12 +45,4 @@ button{
     color: cadetblue;
     background-color: whitesmoke;
     border: none;
-}
-
-button#opc_1{
-    background-color: yellowgreen;
-}
-
-button#opc_2{
-    background-color: tomato;
 }
