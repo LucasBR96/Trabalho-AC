@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: whitesmoke;
     color: cadetblue;
     font: normal 20pt Arial;
 }
@@ -14,11 +14,44 @@ footer{
 }
 
 section{
-    background-color:bisque;
+    background-color:gainsboro;
     text-align: center;
     padding: 15px;
     border-radius: 15px;
     margin: auto;
     width: 700px;
     
+}
+ 
+.modal {
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px black;
+    width: 80%;
+    border-radius: 15px;
+}
+
+button{
+    font: bold 20px Arial;
+    color: cadetblue;
+    background-color: whitesmoke;
+    border: none;
+}
+
+button#opc_1{
+    background-color: yellowgreen;
+}
+
+button#opc_2{
+    background-color: tomato;
 }
