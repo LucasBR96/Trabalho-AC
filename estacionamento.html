@@ -18,19 +18,35 @@
     <section>
         <div>Você está em <strong>G3</strong></div>
 
-        <button id="popup_local" onclick="modal_show('Carioca Shopping')">Clique</button>
+        <button id="popup_local" onclick="modal_show('popup')">Local</button>
+        <button id="popup_erro" onclick="modal_show('erro_local')">Erro</button>
 
         <div id="popup" class="modal">
             <div class="modal-content">
-
+        
                 <p id="local">
+                    Você está em Carioca Shopping?
                     <br>
                 </p>
-
-                <button id="opc_1" onclick="modal_close()">Sim</button><br>
-                <button id="opc_2" onclick="modal_close()">Não</button>
+        
+                <button id="opc_1" onclick="modal_close('popup')">Sim</button><br>
+                <button id="opc_2" onclick="modal_close('popup')">Não</button>
             </div>
-
+        
+        </div>
+        
+        
+        <div id="erro_local" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="modal_close('erro_local')">&times;</span><br>
+        
+                <p id="error">Parece que erramos a sua localização.</p>
+                <p>Você pode fornecê-la abaixo para encontrarmos uma vaga para você!</p>
+        
+                <button id="localizacao">🔍Sua Localização</button>
+        
+            </div>
+        
         </div>
 
     </section>
