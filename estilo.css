@@ -42,7 +42,8 @@ section{
     border-radius: 15px;
     width: 90%;
     height: 90%;
-    margin: auto;        
+    margin: auto; 
+    margin-top: 5px;      
 
 }
  
@@ -64,12 +65,14 @@ section{
     border-radius: 15px;
 }
 
-button{
+button, a{
     font: bold 20px Arial;
     color: cadetblue;
     background-color: whitesmoke;
     border: none;
     padding: 5px;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .close{
@@ -80,4 +83,15 @@ button{
 p#error{
     color: red;
     font-weight: bold;
+}
+
+
+p#vaga_andar, p#vaga_num{
+    color: whitesmoke;
+    border-radius: 15px;
+    background: cadetblue;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
 }
