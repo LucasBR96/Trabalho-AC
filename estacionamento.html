@@ -9,46 +9,32 @@
 <body>
     <header>
         <div><p>VAGÔ</p></div>
-        <div>
-            <input type="image" src="./imagens/bars.png" id="barras" onclick="teste()"/>
-        </div>
         
     </header>
 
     <section>
-        <div>Você está em <strong>G3</strong></div>
+        <div>
+            <strong>Bem vindo!</strong>
+            <p>Realize seu login</p><br>
 
-        <button id="popup_local" onclick="modal_show('popup')">Local</button>
-        <button id="popup_erro" onclick="modal_show('erro_local')">Erro</button>
-        <button><li><a href="vaga.html">Vaga</a></li></button>
-        
+            <div id="logos">
+                
+                <button>
+                    <img src="imagens/twitter_logo.png" alt="twitter">
+                    <li><a href="vaga.html">Twitter</a></li>
+                </button> <br>
 
-        <div id="popup" class="modal">
-            <div class="modal-content">
-        
-                <p id="local">
-                    Você está em Carioca Shopping?
-                    <br>
-                </p>
-        
-                <button id="opc_1" onclick="modal_close('popup')">Sim</button><br>
-                <button id="opc_2" onclick="modal_close('popup')">Não</button>
+                <button>
+                    <img src="imagens/facebook_logo.png" alt="facebook">
+                    <li><a href="vaga.html">Facebook</a></li>
+                </button> <br>
+
+                <button>
+                    <img src="imagens/google_logo.png" alt="google">
+                    <li><a href="vaga.html">Google</a></li>
+                </button> <br>
+
             </div>
-        
-        </div>
-        
-        
-        <div id="erro_local" class="modal">
-            <div class="modal-content">
-                <span class="close" onclick="modal_close('erro_local')">&times;</span><br>
-        
-                <p id="error">Parece que erramos a sua localização.</p>
-                <p>Você pode fornecê-la abaixo para encontrarmos uma vaga para você!</p>
-        
-                <button id="localizacao">🔍Sua Localização</button>
-        
-            </div>
-        
         </div>
 
     </section>
