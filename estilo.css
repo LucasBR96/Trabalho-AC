@@ -21,6 +21,10 @@ header{
     margin: auto;
 }
 
+header button, header a{
+    background-color: cadetblue;
+}
+
 header div{
     flex: 1;
 }
@@ -28,7 +32,6 @@ header div{
 header div p{
     text-align: left;
 }
-
 
 footer{
     font: italic 15pt Arial;
@@ -45,6 +48,10 @@ section{
     margin: auto; 
     margin-top: 5px;      
 
+}
+
+.modal#erro_local{
+    display: none;
 }
  
 .modal {
@@ -94,4 +101,18 @@ p#vaga_andar, p#vaga_num{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+}
+
+div#logos{
+    margin-left: 50%;
+}
+
+div#logos button, div#logos a{
+    background-color: gainsboro;
+    display: flex;
+    flex: 1;
+}
+
+div#vaga{
+    display: none;
 }
