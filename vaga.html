@@ -10,25 +10,56 @@
     <header>
         <div><p>VAGÔ</p></div>
         <div>
-            <input type="image" src="./imagens/bars.png" id="barras" onclick="teste()"/>
+            <button><li>
+                <a href="estacionamento.html">
+                    <img src="imagens/exit.png" alt="barra">
+                </a>
+            </li></button>
         </div>
         
     </header>
 
     <section>
+        <div id="popup" class="modal">
+            <div class="modal-content">
+        
+                <p id="local">
+                    Você está em Carioca Shopping?
+                    <br>
+                </p>
+        
+                <button id="opc_1" onclick="vaga_get(), modal_close('popup')">Sim</button><br>
+                <button id="opc_2" onclick="modal_show('erro_local'), modal_close('popup')">Não</button>
+            </div>
+        
+        </div>    
+        
+        <div id="erro_local" class="modal">
+            <div class="modal-content">        
+                <p id="error">Parece que erramos a sua localização.</p>
+                <p>Você pode fornecê-la abaixo para encontrarmos uma vaga para você!</p>
+        
+                <button id="localizacao" onclick="vaga_get(), modal_close('erro_local')">🔍Sua Localização</button>
+        
+            </div>
+        
+        </div>
+
         <div id="vaga">
             <p>O andar da sua vaga é:</p>
 
-            <p id="vaga_andar"><strong>G3</strong></p>
+            <p id="vaga_andar"></p>
 
             <p>O número da sua vaga é:</p>
 
-            <p id="vaga_num"><strong>32</strong></p>
+            <p id="vaga_num"></p>
 
-            <button><li><a href="estacionamento.html">Estacionado!</a></li></button>
+            <button id="btn_estacionado" onclick="estacionado()">Estacionado!</button>
 
         </div>
     </section>
+
+    <script src="estacionamento.js"></script>
 
 </body>
 </html>
