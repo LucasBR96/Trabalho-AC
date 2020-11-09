@@ -44,10 +44,9 @@ section{
     padding: 15px;
     border-radius: 15px;
     width: 90%;
-    height: 90%;
     margin: auto; 
-    margin-top: 5px;      
-
+    margin-top: 5px;    
+    padding-bottom: 90%;
 }
 
 .modal#erro_local{
